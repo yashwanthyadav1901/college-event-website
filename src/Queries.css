@@ -1,0 +1,63 @@
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 64em) {
+  .box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+
+  .slider {
+    padding: 4rem;
+  }
+
+  .carousel-image {
+    width: 90%;
+  }
+
+  .image {
+    width: 80%;
+    margin: 5rem;
+  }
+}
+
+@media (max-width: 37em) {
+  html {
+    font-size: 37%;
+  }
+  .festlogo-container {
+    width: 100%;
+    padding: 5rem 0;
+  }
+
+  .main {
+    grid-template-columns: 1fr;
+  }
+
+  .timer-section {
+    padding: 5rem;
+  }
+
+  .fest-info {
+    padding: 4rem;
+  }
+
+  .event-section {
+    padding: 4rem;
+  }
+
+  .main-events {
+    grid-template-columns: 1fr;
+  }
+  .event-list {
+    margin: 5rem 2rem;
+  }
+
+  .box-container {
+    grid-template-columns: 1fr;
+  }
+}

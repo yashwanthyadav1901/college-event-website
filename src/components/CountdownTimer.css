@@ -1,0 +1,37 @@
+.timer-section {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.timer-container p {
+  text-transform: capitalize;
+  font-family: "Overpass", sans-serif;
+}
+
+.timer {
+  background-color: #38050e;
+  color: white;
+  width: 7rem;
+  padding: 2rem 0;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.countdown-header {
+  font-size: 4rem;
+
+  font-family: "Dancing Script", cursive;
+  color: #38050e;
+  color: #d5a000;
+}

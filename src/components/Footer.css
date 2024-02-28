@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Annapurna+SIL:wght@400;700&family=Dancing+Script:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap");
+.footer {
+  padding: 3rem;
+  background-color: #751426;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.box h3 {
+  padding-bottom: 1.5rem;
+}
+
+.box li {
+  list-style: none;
+  text-decoration: none;
+  padding-bottom: 1rem;
+}
+
+.box a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.box a:hover {
+  color: blue;
+}
+
+.logo {
+  width: 300px;
+}
+
+.box h3 {
+  font-weight: bold;
+}
+
+.contact-heading {
+  color: red;
+}
+
+.credit {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.college-info {
+  padding: 3rem 0;
+}

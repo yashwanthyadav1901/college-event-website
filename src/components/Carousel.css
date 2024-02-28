@@ -1,0 +1,38 @@
+/* .carouselimage {
+  width: 25rem;
+} */
+
+.carousel-section {
+  background-image: url("./assets/background2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5rem 0;
+}
+
+.carousel-heading-container {
+  text-align: center;
+}
+
+.carousel-heading {
+  font-size: 4rem;
+  text-transform: uppercase;
+  padding-top: 4rem;
+
+  font-family: "Dancing Script", cursive;
+  color: #38050e;
+  font-weight: bold;
+}
+
+.slider {
+  padding: 7rem;
+}
+
+.carousel-image {
+  width: 80%;
+  height: 40rem;
+
+  margin: 0 auto;
+
+  border: 1rem solid #38050e;
+  border-radius: 8px;
+}
